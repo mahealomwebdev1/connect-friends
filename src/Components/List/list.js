@@ -1,5 +1,5 @@
 import React from 'react';
-import './list.css';
+import './list.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserFriends, } from '@fortawesome/free-solid-svg-icons'
 const list = (props) => {
@@ -13,9 +13,9 @@ const list = (props) => {
                     <img src={img} alt=""/>
                     </div>
                 <div className="user-option">
-                    <h1>{name}</h1>
-                    <h4> <small>Work at:</small> {company.name}</h4>
-                    <h4><small>Yearly salary: </small> $ {yearlySalary}</h4>
+                    <h1 className="name">{name}</h1>
+                    <h4 className="working-place"> <small>Work at:</small> {company.name}</h4>
+                    <h4 className="income"><small>Yearly salary: </small> $ {yearlySalary}</h4>
                     
                     
                     <br/>
@@ -27,7 +27,7 @@ const list = (props) => {
                 </div>
 
                 <div className="detail">
-                    <h3>Details</h3>
+                    <h3 className="dt">Details</h3>
                     <h5><small>User name:</small>{username}</h5>
                     <h5><small>website:</small> {website}</h5>
                     <h5><small>Phone:</small> {phone}</h5>

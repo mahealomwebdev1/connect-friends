@@ -2,3 +2,9 @@
     text-align: center;
     color: slateblue;
 }
+.total-user{
+    color: grey;
+}
+.friend-number{
+    color: rgb(245, 174, 9);
+}

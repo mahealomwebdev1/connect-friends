@@ -9,8 +9,8 @@ const Friend = (props) => {
 
     return (
         <div>
-            <h4>Total User:{users.length}</h4>
-            <h5> Friends: {friend.length}</h5>
+            <h4 className="total-user">Total User:{users.length}</h4>
+            <h5 className="friend-number"> Friends: {friend.length}</h5>
             <p className="adding-friend" >Added Friends:
                 <br/>
                 {props.friend} </p>
