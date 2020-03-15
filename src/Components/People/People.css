@@ -9,6 +9,8 @@
 }
 .cartAndDetails{
     width: 15%;
+    text-align: center;
+    
 }
 .cart{
     border: 1px solid lightgray;
