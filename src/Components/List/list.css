@@ -1,0 +1,34 @@
+.user{
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px; 
+}
+.userImg{
+   
+    float: left;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.user-option{
+    float: left;
+    width:300px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.detail{
+   margin-top: 30px;
+   padding: 10px;
+   text-align: center;  
+}
+.button{
+    background-color: rgb(116, 127, 228);
+    width: 200px;
+    height: 30px;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
